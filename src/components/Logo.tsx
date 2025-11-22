@@ -5,7 +5,7 @@ export const Logo = () => {
     <div className="box-border caret-transparent basis-[0%] grow">
       <Link
         to="/"
-        aria-label="home"
+      aria-label="home"
         className="relative text-white box-border caret-transparent block float-left h-10 max-h-10 overflow-hidden"
       >
         <div className="box-border caret-transparent hidden">
@@ -16,11 +16,11 @@ export const Logo = () => {
           />
         </div>
         <div className="box-border caret-transparent">
-          <img
+      <img
             src="https://c.animaapp.com/mhnzg6knJo6lE7/assets/689bafd63b8c771c0fcb9750_Frame_7.svg"
             alt="Logo White"
             className="box-border caret-transparent inline-block max-w-full"
-          />
+      />
         </div>
       </Link>
     </div>
