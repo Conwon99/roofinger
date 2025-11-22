@@ -1,0 +1,47 @@
+﻿import { ProjectCard } from "@/pages/projects/sections/ProjectsGrid/components/ProjectCard";
+
+export const ProjectsGrid = () => {
+  return (
+    <section className="box-border caret-transparent pb-[70px] md:pb-[140px]">
+      <div className="box-border caret-transparent max-w-[1540px] mx-auto px-[15px] md:px-[30px] before:accent-auto before:caret-transparent before:text-neutral-600 before:table before:text-lg before:not-italic before:normal-nums before:font-medium before:col-end-2 before:col-start-1 before:row-end-2 before:row-start-1 before:tracking-[normal] before:leading-[27px] before:list-outside before:list-disc before:pointer-events-auto before:text-start before:indent-[0px] before:normal-case before:visible before:border-separate before:font-manrope after:accent-auto after:caret-transparent after:clear-both after:text-neutral-600 after:table after:text-lg after:not-italic after:normal-nums after:font-medium after:col-end-2 after:col-start-1 after:row-end-2 after:row-start-1 after:tracking-[normal] after:leading-[27px] after:list-outside after:list-disc after:pointer-events-auto after:text-start after:indent-[0px] after:normal-case after:visible after:border-separate after:font-manrope">
+        <div className="box-border caret-transparent">
+          <div
+            role="list"
+            className="box-border caret-transparent gap-x-10 grid flex-col auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] gap-y-10 md:gap-x-[70px] md:grid-cols-[1fr_1fr] md:gap-y-[70px]"
+          >
+            <ProjectCard
+              href="/project/new-roof-with-fascias-soffits"
+              imageUrl="/projects/project-004-01.jpg"
+              imageAlt="New roof with fascias, soffits and gutters completed"
+              imageClassName="transform-none md:scale-[1.00989px]"
+              location="Kilmarnock, Ayrshire"
+              title="New roof with fascias, soffits & gutters"
+            />
+            <ProjectCard
+              href="/project/new-roughcast-job-completed"
+              imageUrl="/projects/project-002-01.jpg"
+              imageAlt="New roughcast job recently completed"
+              location="Kilmarnock, Ayrshire"
+              title="New roughcast & exterior work"
+            />
+            <ProjectCard
+              href="/project/complete-roof-renovation"
+              imageUrl="/projects/project-003-01.jpg"
+              imageAlt="Complete roof renovation with new roof, fascias, soffits and gutters"
+              location="Kilmarnock, Ayrshire"
+              title="Complete roof renovation"
+            />
+            <ProjectCard
+              href="/project/roof-roughcast-exterior-upgrade"
+              imageUrl="/projects/project-005-01.jpg"
+              imageAlt="New roof with roughcast and exterior upgrades"
+              location="Kilmarnock, Ayrshire"
+              title="Roof & exterior upgrade with roughcast"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
