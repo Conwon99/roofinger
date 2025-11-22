@@ -9,10 +9,10 @@ export const FooterContact = () => {
             className="box-border caret-transparent h-6 max-w-full w-6 mt-1"
           />
           <a
-            href="mailto://example@gmail.com"
+            href="mailto:garynixon2@gmail.com"
             className="box-border caret-transparent block underline hover:text-yellow-500 hover:decoration-transparent hover:border-yellow-500"
           >
-            example@gmail.com
+            garynixon2@gmail.com
           </a>
         </div>
         <div className="text-white items-start box-border caret-transparent gap-x-2.5 flex justify-start gap-y-2.5">
@@ -22,10 +22,10 @@ export const FooterContact = () => {
             className="box-border caret-transparent h-6 max-w-full w-6 mt-1"
           />
           <a
-            href="tel://+1(555)123-4567"
+            href="tel:07710981903"
             className="box-border caret-transparent block underline hover:text-yellow-500 hover:decoration-transparent hover:border-yellow-500"
           >
-            +1 (555) 123-4567
+            07710 981903
           </a>
         </div>
         <div className="text-white items-start box-border caret-transparent gap-x-2.5 flex justify-start gap-y-2.5">
@@ -35,38 +35,20 @@ export const FooterContact = () => {
             className="box-border caret-transparent h-6 max-w-full w-6 mt-1"
           />
           <div className="box-border caret-transparent">
-            544 Honey Creek Rd., West Des Moines, IA 50265
+            Serving Ayrshire & Surrounding Areas, Scotland
           </div>
         </div>
       </div>
       <div className="box-border caret-transparent gap-x-[15px] flex gap-y-[15px]">
         <a
-          href="https://www.instagram.com/"
-          className="items-center bg-white box-border caret-transparent flex h-10 justify-center max-w-full underline w-10 rounded-[50%] hover:bg-yellow-500 hover:decoration-transparent"
-        >
-          <img
-            src="https://c.animaapp.com/mial13ktyN5Jkh/assets/670f58e333797fd0eb9fa085_instagram.svg"
-            alt="Social Icon"
-            className="box-border caret-transparent h-5 max-w-full w-5"
-          />
-        </a>
-        <a
-          href="https://www.facebook.com/"
+          href="https://www.facebook.com/garynixonrooofing"
+          target="_blank"
+          rel="noopener noreferrer"
           className="items-center bg-white box-border caret-transparent flex h-10 justify-center max-w-full underline w-10 rounded-[50%] hover:bg-yellow-500 hover:decoration-transparent"
         >
           <img
             src="https://c.animaapp.com/mial13ktyN5Jkh/assets/670f58e375e253beb4db0e54_facebook.svg"
-            alt="Social Icon"
-            className="box-border caret-transparent h-5 max-w-full w-5"
-          />
-        </a>
-        <a
-          href="https://twitter.com/"
-          className="items-center bg-white box-border caret-transparent flex h-10 justify-center max-w-full underline w-10 rounded-[50%] hover:bg-yellow-500 hover:decoration-transparent"
-        >
-          <img
-            src="https://c.animaapp.com/mial13ktyN5Jkh/assets/670f58e3c0bab665af9c269a_twitter-x.svg"
-            alt="Social Icon"
+            alt="Facebook"
             className="box-border caret-transparent h-5 max-w-full w-5"
           />
         </a>

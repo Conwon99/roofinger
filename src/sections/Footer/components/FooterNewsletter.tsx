@@ -12,8 +12,7 @@ export const FooterNewsletter = () => {
         />
       </a>
       <p className="text-white box-border caret-transparent mb-2.5">
-        Each of these captures the essence of what makes your insurance service
-        stand out, focusing on key aspects.
+        Family-run, fully-insured roofing and scaffolding specialists serving Ayrshire and surrounding areas. Tailored services with a 20-year guarantee on new roofs.
       </p>
       <div className="box-border caret-transparent mt-[30px] mb-[15px]">
         <form

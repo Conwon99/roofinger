@@ -3,6 +3,7 @@ import { Hero } from "@/sections/Hero";
 import { ExperienceSection } from "@/sections/ExperienceSection";
 import { ServicesSection } from "@/sections/ServicesSection";
 import { ProjectsSection } from "@/sections/ProjectsSection";
+import { ReviewsSection } from "@/sections/ReviewsSection";
 import { VideoSection } from "@/sections/VideoSection";
 import { FAQSection } from "@/sections/FAQSection";
 import { Footer } from "@/sections/Footer";
@@ -15,6 +16,7 @@ export const HomePage = () => {
       <ExperienceSection />
       <ServicesSection />
       <ProjectsSection />
+      <ReviewsSection />
       <VideoSection />
       <FAQSection />
       <Footer />

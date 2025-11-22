@@ -17,9 +17,9 @@ export const ExperienceContent = () => {
           More about us
         </a>
       </div>
-      <div className="box-border caret-transparent mt-auto">
+      <div className="box-border caret-transparent mt-8 md:mt-10">
         <RatingDisplay />
-        <p className="box-border caret-transparent">
+        <p className="box-border caret-transparent mt-5 md:mt-5">
           We deliver reliable roofing and scaffolding solutions backed by professional expertise, ensuring top-quality results with British Standard approved materials. Fully insured and committed to customer satisfaction.
         </p>
       </div>
