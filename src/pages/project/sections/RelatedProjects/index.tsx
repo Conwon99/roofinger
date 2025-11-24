@@ -15,18 +15,18 @@ export const RelatedProjects = () => {
             className="box-border caret-transparent gap-x-10 grid flex-col auto-cols-[1fr] grid-cols-[1fr] grid-rows-[auto] gap-y-10 md:gap-x-[70px] md:grid-cols-[1fr_1fr] md:gap-y-[70px]"
           >
             <ProjectCard
-              href="/project/commercial-flat-roof-installation"
-              imageUrl="https://c.animaapp.com/miakqmnoJuBvHF/assets/6717241ea4bea853dd266730_project-02.avif"
-              imageAlt=""
-              location="Ankeny, IA"
-              title="Commercial flat roof installation"
+              href="/project/new-roof-with-fascias-soffits"
+              imageUrl="/projects/project-004-01.jpg"
+              imageAlt="New roof with fascias, soffits and gutters"
+              location="Kilmarnock, Ayrshire"
+              title="New roof with fascias, soffits & gutters"
             />
             <ProjectCard
-              href="/project/gutter-installation-for-suburban-home"
-              imageUrl="https://c.animaapp.com/miakqmnoJuBvHF/assets/676a8002e484cc03c65b1d54_project-03.avif"
-              imageAlt=""
-              location="Urbandale, IA"
-              title="Gutter installation for suburban home"
+              href="/project/complete-roof-renovation"
+              imageUrl="/projects/project-003-01.jpg"
+              imageAlt="Complete roof renovation"
+              location="Kilmarnock, Ayrshire"
+              title="Complete roof renovation"
             />
           </div>
         </div>

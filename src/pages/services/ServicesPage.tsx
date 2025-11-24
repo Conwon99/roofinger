@@ -1,9 +1,10 @@
-﻿import { Header } from "@/pages/services/sections/Header";
+﻿import { Header } from "@/sections/Header";
 import { Hero } from "@/pages/services/sections/Hero";
 import { ServicesSection } from "@/pages/services/sections/ServicesSection";
 import { WhyChooseSection } from "@/pages/services/sections/WhyChooseSection";
 import { FAQSection } from "@/pages/services/sections/FAQSection";
-import { Footer } from "@/pages/services/sections/Footer";
+import { CTASection } from "@/sections/Footer/components/CTASection";
+import { Footer } from "@/sections/Footer";
 
 export const ServicesPage = () => {
   return (
@@ -16,6 +17,7 @@ export const ServicesPage = () => {
       <ServicesSection />
       <WhyChooseSection />
       <FAQSection />
+      <CTASection />
       <Footer />
     </div>
   );

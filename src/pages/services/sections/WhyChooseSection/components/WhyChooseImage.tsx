@@ -2,9 +2,9 @@
   return (
     <div className="relative box-border caret-transparent h-full overflow-hidden rounded-r-[20px] rounded-tl-[20px] md:h-[500px]">
       <img
-        src="https://c.animaapp.com/mhqqhnhjBr0jWt/assets/6712070fbf13639d2e9cdb56_why-choose-01.avif"
+        src="/projects/project-003-01.jpg"
         sizes="(max-width: 479px) 94vw, (max-width: 991px) 96vw, (max-width: 1279px) 95vw, (max-width: 1919px) 96vw, 1480px"
-        alt="WHy Choose Image"
+        alt="Why Choose GN Roofing & Scaffolding"
         className="box-border caret-transparent inline-block h-full max-w-full object-cover w-full"
       />
       <div className="absolute bg-slate-50 box-border caret-transparent z-[2] pr-2.5 pt-2.5 rounded-tr-[30px] left-[0%] bottom-[0%]">

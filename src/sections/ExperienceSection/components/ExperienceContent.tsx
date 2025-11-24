@@ -1,4 +1,5 @@
 import { RatingDisplay } from "@/sections/ExperienceSection/components/RatingDisplay";
+import { TestimonialsCarousel } from "@/sections/ExperienceSection/components/TestimonialsCarousel";
 
 export const ExperienceContent = () => {
   return (
@@ -19,17 +20,7 @@ export const ExperienceContent = () => {
       </div>
       <div className="box-border caret-transparent mt-8 md:mt-10">
         <RatingDisplay />
-        <div className="box-border caret-transparent mt-5 md:mt-5 p-4 bg-slate-100 rounded-lg md:p-5">
-          <p className="text-gray-700 text-base italic box-border caret-transparent leading-6 md:text-lg md:leading-7">
-            "Have used Gary a few times now and you will not be disappointed, first class service, on time, very tidy and workmanship second to none, top guy"
-          </p>
-          <p className="text-gray-900 text-sm font-semibold box-border caret-transparent mt-3 md:text-base">
-            - Alan Miller
-          </p>
-        </div>
-        <p className="box-border caret-transparent mt-5 md:mt-5">
-          We deliver reliable roofing and scaffolding solutions backed by professional expertise, ensuring top-quality results with British Standard approved materials. Fully insured and committed to customer satisfaction.
-        </p>
+        <TestimonialsCarousel />
       </div>
     </div>
   );

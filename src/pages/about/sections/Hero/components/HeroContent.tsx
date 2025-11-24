@@ -11,10 +11,9 @@ export const HeroContent = () => {
           <p className="text-slate-200 box-border caret-transparent max-w-full mx-auto md:max-w-[70%]">
             At{" "}
             <span className="text-yellow-500 box-border caret-transparent">
-              Roofinger
+              GN Roofing & Scaffolding Services
             </span>
-            , we specialize in providing top-quality roofing solutions tailored
-            to meet the unique needs of every homeowner.
+            , we specialize in providing top-quality roofing and scaffolding solutions tailored to meet the unique needs of every homeowner throughout Ayrshire and surrounding areas.
           </p>
         </div>
         <HeroImages />

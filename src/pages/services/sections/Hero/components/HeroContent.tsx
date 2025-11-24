@@ -5,10 +5,7 @@
         Reliable roofing, exceptional results
       </h1>
       <p className="text-white box-border caret-transparent w-full mb-[30px] md:w-4/5 md:mb-[50px]">
-        We specialize in delivering dependable roofing services with outstanding
-        results. Whether you need repairs, maintenance, or a full roof
-        replacement, our experienced team is dedicated to providing top-quality
-        craftsmanship that stands the test of time.
+        We specialize in delivering dependable roofing and scaffolding services with outstanding results throughout Ayrshire. Whether you need repairs, maintenance, or a full roof replacement, our experienced team is dedicated to providing top-quality craftsmanship. All new roofs come with a 20-year guarantee and include free scaffolding.
       </p>
     </div>
   );

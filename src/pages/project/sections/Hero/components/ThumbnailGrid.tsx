@@ -1,66 +1,56 @@
-﻿export const ThumbnailGrid = () => {
+﻿import { useParams } from "react-router-dom";
+import { getProjectNumber } from "@/pages/project/sections/Hero/components/MainImage";
+
+export const ThumbnailGrid = () => {
+  const { slug } = useParams<{ slug: string }>();
+  const projectNumber = getProjectNumber(slug);
+
+  // Get which image number is used as hero
+  const heroImageNumbers: Record<string, string> = {
+    "new-roof-with-fascias-soffits": "004",
+    "new-roughcast-job-completed": "003",
+    "complete-roof-renovation": "001",
+    "roof-roughcast-exterior-upgrade": "001",
+  };
+
+  const heroImageNumber = heroImageNumbers[slug || ""] || "001";
+
+  // Show all images except the hero image
+  const thumbnailImages = ["001", "002", "003", "004", "005"]
+    .filter((num) => num !== heroImageNumber)
+    .slice(0, 4)
+    .map((number) => ({
+      number,
+      alt: `Project image ${number}`,
+    }));
+
   return (
     <div className="box-border caret-transparent">
       <div
         role="list"
         className="box-border caret-transparent gap-x-5 grid auto-cols-[1fr] grid-cols-[1fr_1fr] grid-rows-[auto_auto] h-full gap-y-5"
       >
-        <div role="listitem" className="box-border caret-transparent">
-          <a
-            href="#"
-            aria-label="open lightbox"
-            className="box-border caret-transparent inline-block h-full max-w-full underline w-full overflow-hidden rounded-[20px] hover:decoration-transparent"
-          >
-            <img
-              src="https://c.animaapp.com/miakqmnoJuBvHF/assets/676a7f7d7e04d0c6a41ebfda_gallery-01.avif"
-              alt=""
-              className="box-border caret-transparent inline-block h-full max-w-full object-cover w-full"
-            />
-          </a>
-        </div>
-        <div role="listitem" className="box-border caret-transparent">
-          <a
-            href="#"
-            aria-label="open lightbox"
-            className="box-border caret-transparent inline-block h-full max-w-full underline w-full overflow-hidden rounded-[20px] hover:decoration-transparent"
-          >
-            <img
-              src="https://c.animaapp.com/miakqmnoJuBvHF/assets/676a7f7dca881a017061e19b_gallery-02.avif"
-              alt=""
-              className="box-border caret-transparent inline-block h-full max-w-full object-cover w-full"
-            />
-          </a>
-        </div>
-        <div role="listitem" className="box-border caret-transparent">
-          <a
-            href="#"
-            aria-label="open lightbox"
-            className="box-border caret-transparent inline-block h-full max-w-full underline w-full overflow-hidden rounded-[20px] hover:decoration-transparent"
-          >
-            <img
-              src="https://c.animaapp.com/miakqmnoJuBvHF/assets/676a7f7d966bea352508b95b_gallery-03.avif"
-              alt=""
-              className="box-border caret-transparent inline-block h-full max-w-full object-cover w-full"
-            />
-          </a>
-        </div>
-        <div role="listitem" className="box-border caret-transparent">
-          <a
-            href="#"
-            aria-label="open lightbox"
-            className="box-border caret-transparent inline-block h-full max-w-full underline w-full overflow-hidden rounded-[20px] hover:decoration-transparent"
-          >
-            <img
-              src="https://c.animaapp.com/miakqmnoJuBvHF/assets/676a7f7df94e481bcd937049_gallery-04.avif"
-              alt=""
-              className="box-border caret-transparent inline-block h-full max-w-full object-cover w-full"
-            />
-          </a>
-        </div>
+        {thumbnailImages.map((img, index) => (
+          <div key={index} role="listitem" className="box-border caret-transparent">
+            <a
+              href="#"
+              aria-label="open lightbox"
+              className="box-border caret-transparent inline-block h-full max-w-full underline w-full overflow-hidden rounded-[20px] hover:decoration-transparent"
+            >
+              <img
+                src={`/projects/project-${projectNumber}-${img.number}.jpg`}
+                alt={img.alt}
+                className="box-border caret-transparent inline-block h-full max-w-full object-cover w-full"
+              />
+            </a>
+          </div>
+        ))}
       </div>
-      <div className="text-gray-900 bg-yellow-500 box-border caret-transparent hidden text-center border border-slate-200 px-5 py-2.5 rounded-[20px] border-solid">
-        <div className="box-border caret-transparent">No items found.</div>
-      </div>
+      {thumbnailImages.length === 0 && (
+        <div className="text-gray-900 bg-yellow-500 box-border caret-transparent text-center border border-slate-200 px-5 py-2.5 rounded-[20px] border-solid">
+          <div className="box-border caret-transparent">No items found.</div>
+        </div>
+      )}
     </div>
   );
 };

@@ -14,7 +14,7 @@
           We tailor our service to each customer's needs, performing fascias, soffits, guttering work and all scaffolding work. We use British Standard approved materials and take pride in delivering durable, long-lasting roofing solutions that protect your property for years to come.
         </p>
         <p className="box-border caret-transparent">
-          Whether you need a new roof with our 20-year guarantee, routine maintenance, or emergency repairs, we offer free estimates and competitive pricing. We don't require payment until you're fully satisfied, and all new roofs include scaffolding free of charge. Contact us today for a free estimate.
+          Whether you need a new roof with our 20-year guarantee, routine maintenance, or emergency repairs, we offer free quotes and competitive pricing. We don't require payment until you're fully satisfied, and all new roofs include scaffolding free of charge. Contact us today for a free quote.
         </p>
       </div>
     </section>

@@ -8,7 +8,7 @@ export const ContactInfoCards = () => {
         iconSrc="https://c.animaapp.com/mhqqiiyn5JzZir/assets/67a43fa6cdc6190922f4a6ed_location-dark.svg"
         iconAlt="Location dark"
         title="Visit our location"
-        content="544 Honey Creek Rd, West Des Moines, IA 50265"
+        content="Serving Ayrshire & Surrounding Areas, Scotland"
       />
       <ContactCard
         variant="bg-gray-900"
@@ -16,20 +16,20 @@ export const ContactInfoCards = () => {
         iconAlt=""
         title="Email support"
         titleClassName="text-white text-xl font-bold box-border caret-transparent leading-6 mb-2.5 md:text-2xl md:leading-[28.8px]"
-        content="example@gmail.com"
+        content="garynixon2@gmail.com"
         contentClassName="text-white box-border caret-transparent block underline hover:text-neutral-600 hover:decoration-transparent hover:border-neutral-600"
         isLink={true}
-        linkHref="mailto://example@gmail.com"
+        linkHref="mailto:garynixon2@gmail.com"
       />
       <ContactCard
         variant="bg-slate-200"
         iconSrc="https://c.animaapp.com/mhqqiiyn5JzZir/assets/67a4386d06c59bfc5ccc1f63_phone-dark.svg"
         iconAlt="Phone dark"
         title="Talk to us directly"
-        content="+1 (555) 123-4567"
+        content="07710 981903"
         contentClassName="box-border caret-transparent block underline hover:text-yellow-500 hover:decoration-transparent hover:border-yellow-500"
         isLink={true}
-        linkHref="tel://+1(555)123-4567"
+        linkHref="tel:07710981903"
       />
     </div>
   );

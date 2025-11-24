@@ -2,26 +2,17 @@ import { Link } from "react-router-dom";
 
 export const Logo = () => {
   return (
-    <div className="box-border caret-transparent basis-[0%] grow">
+    <div className="box-border caret-transparent ml-0 md:ml-8">
       <Link
         to="/"
       aria-label="home"
-        className="relative text-white box-border caret-transparent block float-left h-10 max-h-10 overflow-hidden"
+        className="relative text-gray-900 box-border caret-transparent block h-10 max-h-10 overflow-hidden md:h-14 md:max-h-14"
       >
-        <div className="box-border caret-transparent hidden">
-          <img
-            src="https://c.animaapp.com/mhnzg6knJo6lE7/assets/689a95e54b63b834be7e8748_Frame_1707482768.svg"
-            alt="Logo Black"
-            className="box-border caret-transparent inline-block max-w-full"
-          />
-        </div>
-        <div className="box-border caret-transparent">
-      <img
-            src="https://c.animaapp.com/mhnzg6knJo6lE7/assets/689bafd63b8c771c0fcb9750_Frame_7.svg"
-            alt="Logo White"
-            className="box-border caret-transparent inline-block max-w-full"
-      />
-        </div>
+        <img
+          src="/logo.png"
+          alt="GN Roofing & Scaffolding Logo"
+          className="box-border caret-transparent inline-block h-full max-w-full object-contain"
+        />
       </Link>
     </div>
   );

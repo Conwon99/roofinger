@@ -14,7 +14,7 @@ export const HeroText = () => {
           </span>
         </h1>
         <div className="text-white text-base box-border caret-transparent blur-0 leading-[26px] md:text-lg">
-          Qualified, fully-insured tradesmen delivering tailored roofing and scaffolding solutions. Get a free estimate and a 20-year guarantee on new roofs.
+          Qualified, fully-insured tradesmen delivering tailored roofing and scaffolding solutions. Get a free quote and a 20-year guarantee on new roofs.
         </div>
       </div>
       <div className="items-center box-border caret-transparent gap-x-5 flex blur-0 flex-wrap gap-y-5 mt-6 md:gap-x-6 md:gap-y-6 md:mt-7">
@@ -26,12 +26,12 @@ export const HeroText = () => {
             <div className="relative box-border caret-transparent overflow-hidden">
               <div className="box-border caret-transparent">
                 <div className="relative text-sm font-medium box-border caret-transparent leading-5 z-[2] md:text-base md:leading-6">
-                  Get a free estimate
+                    Get a free quote
                 </div>
               </div>
               <div className="absolute box-border caret-transparent w-full">
                 <div className="relative text-sm font-medium box-border caret-transparent leading-5 z-[2] md:text-base md:leading-6">
-                  Get a free estimate
+                    Get a free quote
                 </div>
               </div>
             </div>

@@ -7,10 +7,12 @@ import { ProjectsPage } from "@/pages/projects/ProjectsPage";
 import { ContactPage } from "@/pages/contact/ContactPage";
 import { ProjectDetailPage } from "@/pages/project/ProjectDetailPage";
 import { ServiceDetailPage } from "@/pages/service/ServiceDetailPage";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 export const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

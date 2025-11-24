@@ -6,6 +6,7 @@ import { ProjectsSection } from "@/sections/ProjectsSection";
 import { ReviewsSection } from "@/sections/ReviewsSection";
 import { VideoSection } from "@/sections/VideoSection";
 import { FAQSection } from "@/sections/FAQSection";
+import { CTASection } from "@/sections/Footer/components/CTASection";
 import { Footer } from "@/sections/Footer";
 
 export const HomePage = () => {
@@ -19,6 +20,7 @@ export const HomePage = () => {
       <ReviewsSection />
       <VideoSection />
       <FAQSection />
+      <CTASection />
       <Footer />
     </div>
   );

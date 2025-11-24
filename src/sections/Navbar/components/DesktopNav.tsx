@@ -13,9 +13,9 @@ export const DesktopNav = () => {
         <li className="box-border caret-transparent min-h-0 min-w-0 bg-[position:0px_0px] mx-0 md:min-h-[auto] md:min-w-[auto] md:mx-2">
           <Link
             to="/"
-            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-white hover:text-yellow-500 hover:border-yellow-500"
+            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-gray-900 hover:text-yellow-500 hover:border-yellow-500"
           >
-            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-white md:text-base md:min-h-[auto] md:min-w-[auto]">
+            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-gray-900 md:text-base md:min-h-[auto] md:min-w-[auto]">
               Home
             </div>
           </Link>
@@ -23,9 +23,9 @@ export const DesktopNav = () => {
         <li className="box-border caret-transparent min-h-0 min-w-0 bg-[position:0px_0px] mx-0 md:min-h-[auto] md:min-w-[auto] md:mx-2">
           <Link
             to="/about"
-            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-white hover:text-yellow-500 hover:border-yellow-500"
+            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-gray-900 hover:text-yellow-500 hover:border-yellow-500"
           >
-            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-white md:text-base md:min-h-[auto] md:min-w-[auto]">
+            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-gray-900 md:text-base md:min-h-[auto] md:min-w-[auto]">
               About
             </div>
           </Link>
@@ -33,9 +33,9 @@ export const DesktopNav = () => {
         <li className="box-border caret-transparent min-h-0 min-w-0 bg-[position:0px_0px] mx-0 md:min-h-[auto] md:min-w-[auto] md:mx-2">
           <Link
             to="/services"
-            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-white hover:text-yellow-500 hover:border-yellow-500"
+            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-gray-900 hover:text-yellow-500 hover:border-yellow-500"
           >
-            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-white md:text-base md:min-h-[auto] md:min-w-[auto]">
+            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-gray-900 md:text-base md:min-h-[auto] md:min-w-[auto]">
               Services
             </div>
           </Link>
@@ -43,9 +43,9 @@ export const DesktopNav = () => {
         <li className="box-border caret-transparent min-h-0 min-w-0 bg-[position:0px_0px] mx-0 md:min-h-[auto] md:min-w-[auto] md:mx-2">
           <Link
             to="/projects"
-            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-white hover:text-yellow-500 hover:border-yellow-500"
+            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-gray-900 hover:text-yellow-500 hover:border-yellow-500"
           >
-            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-white md:text-base md:min-h-[auto] md:min-w-[auto]">
+            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-gray-900 md:text-base md:min-h-[auto] md:min-w-[auto]">
               Projects
             </div>
           </Link>
@@ -53,9 +53,9 @@ export const DesktopNav = () => {
         <li className="box-border caret-transparent min-h-0 min-w-0 bg-[position:0px_0px] mx-0 md:min-h-[auto] md:min-w-[auto] md:mx-2">
           <Link
             to="/contact"
-            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-white hover:text-yellow-500 hover:border-yellow-500"
+            className="text-slate-900 box-border caret-transparent flex justify-center max-w-full text-center md:text-gray-900 hover:text-yellow-500 hover:border-yellow-500"
           >
-            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-white md:text-base md:min-h-[auto] md:min-w-[auto]">
+            <div className="text-slate-900 text-[15px] box-border caret-transparent leading-6 min-h-0 min-w-0 md:text-gray-900 md:text-base md:min-h-[auto] md:min-w-[auto]">
               Contact
             </div>
           </Link>

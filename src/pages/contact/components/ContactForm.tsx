@@ -22,7 +22,7 @@
         </label>
         <input
           name="Email"
-          placeholder="example@gmail.com"
+          placeholder="your.email@example.com"
           type="email"
           className="text-gray-900 text-base bg-slate-200 box-border caret-transparent block h-12 leading-[25.6px] align-middle w-full border border-slate-200 mb-2.5 px-5 py-2.5 rounded-[20px] border-solid"
         />
@@ -34,7 +34,7 @@
           </label>
           <input
             name="Phone-No"
-            placeholder="+1234567890"
+            placeholder="07710 981903"
             type="tel"
             className="text-gray-900 text-base bg-slate-200 box-border caret-transparent block h-12 leading-[25.6px] align-middle w-full border border-slate-200 mb-2.5 px-5 py-2.5 rounded-[20px] border-solid"
           />
@@ -80,29 +80,16 @@
           </select>
         </div>
       </div>
-      <div className="items-start box-border caret-transparent gap-x-0 flex flex-col justify-start gap-y-0 md:[align-items:normal] md:gap-x-[30px] md:flex-row md:justify-normal md:gap-y-[30px]">
-        <div className="text-base items-start box-border caret-transparent flex-col w-full mb-5 md:text-lg md:items-center md:flex-row">
-          <label className="text-gray-900 text-base box-border caret-transparent block mb-[5px] md:text-lg">
-            Location
-          </label>
-          <input
-            name="Location"
-            placeholder="Location"
-            type="text"
-            className="text-gray-900 text-base bg-slate-200 box-border caret-transparent block h-12 leading-[25.6px] align-middle w-full border border-slate-200 mb-2.5 px-5 py-2.5 rounded-[20px] border-solid"
-          />
-        </div>
-        <div className="text-base items-start box-border caret-transparent flex-col w-full mb-5 md:text-lg md:items-center md:flex-row">
-          <label className="text-gray-900 text-base box-border caret-transparent block mb-[5px] md:text-lg">
-            Date
-          </label>
-          <input
-            name="Date"
-            placeholder="dd-mm-yy"
-            type="text"
-            className="text-gray-900 text-base bg-slate-200 box-border caret-transparent block h-12 leading-[25.6px] align-middle w-full border border-slate-200 mb-2.5 px-5 py-2.5 rounded-[20px] border-solid"
-          />
-        </div>
+      <div className="text-base items-start box-border caret-transparent flex-col w-full mb-5 md:text-lg md:items-center md:flex-row">
+        <label className="text-gray-900 text-base box-border caret-transparent block mb-[5px] md:text-lg">
+          Message
+        </label>
+        <textarea
+          name="Message"
+          placeholder="Tell us about your roofing needs..."
+          rows={6}
+          className="text-gray-900 text-base bg-slate-200 box-border caret-transparent block leading-[25.6px] align-middle w-full border border-slate-200 mb-2.5 px-5 py-2.5 rounded-[20px] border-solid resize-vertical"
+        />
       </div>
       <input
         type="submit"

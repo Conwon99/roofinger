@@ -2,7 +2,7 @@
 
 export const Hero = () => {
   return (
-    <section className="box-border caret-transparent mt-[-70px] md:mt-[-106px]">
+    <section className="box-border caret-transparent pt-[100px] md:pt-[120px]">
       <HeroContent />
     </section>
   );

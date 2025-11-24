@@ -14,7 +14,7 @@ export const ServicesSection = () => {
             href="/service/roof-installations"
             iconUrl="https://c.animaapp.com/mhqqhnhjBr0jWt/assets/670f922acd8bf79374aa2c10_service-01.svg"
             title="Roof Installations"
-            description="High-quality and durable roofing solutions for residential and commercial properties, Â long-lasting protection, and aesthetic appeal."
+            description="High-quality and durable roofing solutions for residential and commercial properties, providing long-lasting protection and aesthetic appeal. Includes a 20-year guarantee."
           />
           <ServiceCard
             href="/service/roof-repairs"

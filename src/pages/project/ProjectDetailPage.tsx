@@ -1,8 +1,9 @@
-﻿import { Header } from "@/pages/project/sections/Header";
+﻿import { Header } from "@/sections/Header";
 import { Hero } from "@/pages/project/sections/Hero";
 import { ProjectContent } from "@/pages/project/sections/ProjectContent";
 import { RelatedProjects } from "@/pages/project/sections/RelatedProjects";
-import { Footer } from "@/pages/project/sections/Footer";
+import { CTASection } from "@/sections/Footer/components/CTASection";
+import { Footer } from "@/sections/Footer";
 
 export const ProjectDetailPage = () => {
   return (
@@ -11,6 +12,7 @@ export const ProjectDetailPage = () => {
       <Hero />
       <ProjectContent />
       <RelatedProjects />
+      <CTASection />
       <Footer />
     </div>
   );

@@ -1,4 +1,5 @@
-﻿import { ServiceCard } from "@/sections/ServicesSection/components/ServiceCard";
+﻿import { Link } from "react-router-dom";
+import { ServiceCard } from "@/sections/ServicesSection/components/ServiceCard";
 
 export const ServicesSection = () => {
   return (
@@ -38,6 +39,14 @@ export const ServicesSection = () => {
             title="Gutter Installations"
             description="Durable and efficient gutter systems are designed to protect your home by directing water away from the roof and foundation."
           />
+        </div>
+        <div className="box-border caret-transparent text-center mt-[40px] mx-auto md:mt-[60px]">
+          <Link
+            to="/services"
+            className="text-gray-900 text-sm font-bold bg-yellow-500 box-border caret-transparent inline-block leading-[19.6px] border border-yellow-500 px-5 py-2 rounded-[50px] border-solid md:text-lg md:leading-[25.2px] md:px-[30px] md:py-3 hover:text-white hover:bg-gray-900 hover:border-gray-900 hover:decoration-transparent"
+          >
+            View more services
+          </Link>
         </div>
       </div>
     </section>
